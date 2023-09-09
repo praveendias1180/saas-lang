@@ -1,11 +1,9 @@
-$margin: 50px;
-$margin-sm: 10px;
+@use 'base';
+@use 'container';
 
 body {
-    background-color: #eee;
-
     .container {
-        margin: $margin;
+        margin: base.$margin;
 
         display: flex;
         flex-direction: column;
@@ -15,7 +13,7 @@ body {
         }
 
         @media screen and (max-width: 400px) {
-            margin: $margin-sm;
+            margin: base.$margin-sm;
 
             p {
                 font-size: 1.5rem;
