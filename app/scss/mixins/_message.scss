@@ -1,0 +1,25 @@
+@mixin theme($theme: DarkGray) {
+    background: $theme;
+    box-shadow: 10px 10px 1px rgba($theme, .50);
+    color: #fff;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5px;
+
+    &:hover {
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba($theme, .50);
+    }
+}
+
+.info {
+    @include theme;
+}
+
+.alert {
+    @include theme($theme: DarkRed);
+}
+
+.success {
+    @include theme($theme: DarkGreen);
+}
