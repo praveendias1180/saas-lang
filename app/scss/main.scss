@@ -1,0 +1,17 @@
+$margin: 50px;
+
+body {
+    background-color: #eee;
+
+    .container {
+        margin: $margin;
+
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            color: blue
+        }
+    }
+
+}
