@@ -3,6 +3,7 @@
 @use 'mixins/message';
 @use 'mixins/ifelse';
 @use 'modules/interpolate';
+@use 'modules/maps';
 
 body {
     .container {
