@@ -16,6 +16,8 @@ sass --watch app/scss/main.scss public/css/output.css
 sass --watch app/scss:public/css
 ```
 
+![](public/images/sass-lab.png)
+
 # References
 
 Media Queries
