@@ -1,4 +1,5 @@
 $margin: 50px;
+$margin-sm: 10px;
 
 body {
     background-color: #eee;
@@ -12,6 +13,17 @@ body {
         h1 {
             color: blue
         }
+
+        @media screen and (max-width: 400px) {
+            margin: $margin-sm;
+
+            p {
+                font-size: 1.5rem;
+                color: red;
+            }
+
+        }
+
     }
 
 }
